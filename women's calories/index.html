@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/women.css">
+    <script src="js/women.js" defer></script>
+    <title>Women's Calories</title>
+
+</head>
+<body>
+
+    <header>
+        <nav class="nav-bar">
+            <a href="../bmi/index.html"><i class="nav-bmi"></i>BMI</a>
+            <a href="../men's calories/index.html"><i class="nav-men"></i>Men's BMR</a>
+            <a href="index.html"><i class="nav-women"></i>Women's BMR</a>
+        </nav>
+    </header>
+    
+    <main class="main">
+        <div class="display">
+            <div class="form-hide">
+                <label for="bmrtext"></label>
+                <span id="result" class="show-BMR"></span>
+            </div>
+        </div>
+        <div class="form-setting">
+            <label for="weight">Weight (kg)</label>
+            <input id="weight" value="0"/>
+        </div>
+        <div class="form-setting">
+            <label for="height">Height (cm)</label>
+            <input id="height" value="0"/>
+        </div>
+        <div class="form-setting">
+            <label for="age">Age</label>
+            <input id="age" value="0"/>
+        </div>
+        <button onclick="calculate()" class="form__button">Calculate Women's BMR</button>
+    </main>
+
+</body>
+</html>

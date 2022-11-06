@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'IBM Plex Mono', monospace;
+    background-color: rebeccapurple;
+    margin: 25vh 0 0 25%;
+    width: 50%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body .display{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.display{
+    background-color: rebeccapurple;
+    display: flex;
+    font-size: 1.5rem;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+    position: relative;
+    padding: 1rem;
+    overflow: auto;
+}
+
+.main{
+    padding: 0 .2rem .2rem;
+    min-width: 40vh;
+}
+
+.main .display{
+    font-size: 36px;
+}
+
+body .main{
+    font-size: 22px;
+    background-color: rgb(46, 12, 80);
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    min-width: 400px;
+}
+
+.form__button{
+    background-color: #ecb602;
+    border: none;
+    color: rebeccapurple;
+    cursor: pointer;
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0.75rem;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.main div{
+    padding: .25rem;
+}
+
+a{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 1%;
+}
+
+nav{
+    border-radius: 1rem 1rem 0 0;
+    display:flex;
+    flex-direction: column;
+    background-color: rgb(46, 12, 80);
+    align-items: center;
+    padding:.5em;
+    width:100%;
+    min-width: 400px;
+}
+
+a:link, a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #ecb602;
+}
